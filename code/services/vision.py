@@ -23,7 +23,7 @@ class VisionService:
     MODEL = "mistralai/mistral-large-2512"
 
     def __init__(self):
-        api_key = os.getenv("getenv")
+        api_key = os.getenv("API_KEY")
 
         if not api_key:
             raise ValueError(
