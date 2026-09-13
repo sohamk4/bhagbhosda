@@ -11,7 +11,7 @@ load_dotenv(ENV_FILE)
 
 def create_llm():
 
-    api_key = os.getenv("OPENROUTER_API_KEY")
+    api_key = os.getenv("API_KEY")
 
     if not api_key:
         raise RuntimeError(
