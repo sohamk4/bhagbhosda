@@ -1,0 +1,148 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.python-version
+
+# ============================================================
+# uv
+# ============================================================
+# Keep uv.lock — it's your lockfile, commit it.
+# Ignore uv's cache only.
+.uv/
+uv.toml
+# If you want to ignore the lock (not recommended):
+# uv.lock
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+*.env.local
+
+# ============================================================
+# IDE / editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+*.code-workspace
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Jupyter / notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Testing / coverage
+# ============================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+
+# ============================================================
+# Type checkers / linters
+# ============================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ============================================================
+# Project-specific — scratch files
+# ============================================================
+# Test scripts at root (keep tests/ if you make one)
+test-vision.py
+test_*.py
+debug_*.py
+dump_*.py
+check_*.py
+search_*.py
+evaluate_samples.py
+tolerance_sweep.py
+
+# Backups
+*.bak
+*.backup
+*.working
+*.old
+*_OLD.py
+
+# Database artifacts
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ============================================================
+# Dataset
+# ============================================================
+# The dataset is provided by the hackathon — don't commit it.
+# (Comment these out if the grader expects it in code.zip.)
+# dataset/
+# !dataset/output.csv
+
+# Output artifacts
+output_v1_deterministic.csv
+output_with_explanations.csv
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+
+# ============================================================
+# Code zip (generated for submission)
+# ============================================================
+code.zip
+submission.zip
